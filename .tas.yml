@@ -3,6 +3,7 @@ framework: mocha
 preRun:
      command:
         - npm install
+        - npm install -g chai
         - npm run prepare
 preMerge:
   pattern:
