@@ -7,10 +7,10 @@ preRun:
         - npm run prepare
 preMerge:
   pattern:
-    - "test/index.js"
+    - "test/scripts/extend/*.js"
 postMerge:
   pattern: 
-    - test/index.js
+    - "test/scripts/extend/*.js"
 postRun:
      command:
         - node --version
